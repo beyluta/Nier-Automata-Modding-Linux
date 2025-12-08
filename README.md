@@ -6,9 +6,24 @@ You can either follow the tutorial for auto installing everything
 
 First of all, copy the repo, then follow one of the two methods
 
+Overview of the files in the repo:
+1) Modding-Setup-Files               (Folder containing the necessary setup files for starting modding experience)
+   |
+   |-- 1) d3d11.dll                       (SpecialK dll)
+   |-- 2) NierAutomata.exe                (WolfLimitBreaker exe)
+   |-- 3) VC_redist.x64.exe               (Installer for Microsoft c++ tools 64 bit)
+   |-- 4) VC_redist.x86.exe               (Installer for Microsoft c++ tools 32 bit)
+2) Mods                              (Folder containing all the mods that will be installed with the install-important-mods.sh script)
+   |
+   |-- 1)
+
+
+
 
 ## INSTALLER METHOd
 1) Run the install-prerequisites.sh file
+
+2) Launch the game, open a save and the close the game
      Your Nier Automata folder should now have this files (entries anding in / are folders)
      1) d3d11.dll                         (SpecialK dll)
      3) d3d11.ini                         (SpecialK config)
@@ -20,16 +35,20 @@ First of all, copy the repo, then follow one of the two methods
      9) SK_Res                            (SpecialK folder for textures)
      10) steam_api64.sll
      11) Wallpaper
+  
+3) Launch the game before installing any mod
 
-2) You can now install any mod you want by following the tutorials on nexus mods.
+4) You can now install any mod you want by following the tutorials on nexus mods.
    Some mods (those that require Windows specific stuff) are probably not made for Linux and
    will therefore not work, I will not cover them because I do not know the entire mod list
    by memory (obviously)
 
-3) You can run my install-important-mods.sh file for installing the mods that I believe are
-   important for everyone 
+5) You can run my install-important-mods.sh file for installing the mods that I believe are
+   important for everyone
+   Here's the list of the mods that will be installed
 
   
+
 
 ## Manual installation
 This is process is longer because it is less automated, but if anything doesn't work you will notice immediatly and will know exactly what broke it
