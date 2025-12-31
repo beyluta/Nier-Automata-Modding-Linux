@@ -37,9 +37,9 @@ cp ./Modding-Setup-Files/d3d11.dll $HOME/.local/share/Steam/steamapps/common/Nie
 #   LAUNCH GAME   #
 # --------------- #
 
-# Find NieRAutomata SteamID
-set -gx nier_appid (find ~/Games/steam/steamapps/ -maxdepth 1 -type f -name '*.acf' -exec awk -F '"' '/"appid|name/{ printf $4 "|" } END { print "" }' {} \; | column -t -s '|' | sort -k 2 | grep -i NieRAutomata)
+# Find NieRAutomata SteamID --- NO LONGER NEEDED
+# set -gx nier_appid (find ~/Games/steam/steamapps/ -maxdepth 1 -type f -name '*.acf' -exec awk -F '"' '/"appid|name/{ printf $4 "|" } END { print "" }' {} \; | column -t -s '|' | sort -k 2 | grep -i NieRAutomata)
 
 # Launch game
-steam steam://rungameid/{$nier_appid}
+steam steam://rungameid/524220
 
