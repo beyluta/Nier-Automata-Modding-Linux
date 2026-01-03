@@ -95,10 +95,10 @@ Install the VC++ Redistributable for x64 (64-bit) architecture:
 ./bin/VC_redist.x64.exe
 ```
 
-Install the VC++ Redistributable for x32 (32-bit) architecture:
+Install the VC++ Redistributable for x86 (32-bit) architecture:
 
 ```bash
-./bin/VC_redist.x64.exe
+./bin/VC_redist.x86.exe
 ```
 
 Now you need to find out where NieR: Automata is installed. With Steam open,
@@ -152,4 +152,3 @@ You can now install any mod you want by following the tutorials on nexus mods.
 
 > Some mods (those that require Windows specific stuff) are probably not made for Linux and
 > will therefore not work. Neither this project nor the maintainer guarantees that all mods will work.
-
