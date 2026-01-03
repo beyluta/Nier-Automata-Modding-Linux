@@ -108,7 +108,7 @@ Now you need to find out where NieR: Automata is installed. With Steam open,
 find /home -type d -name NieRAutomata # ../Steam/steamapps/common/NieRAutomata
 ```
 
-Then you must replace the Dynamic Link Library (`.dll`) with the one supplied in this guide:
+Then you must move the Dynamic Link Library (`.dll`) to the game path:
 
 ```bash
 mv lib/d3d11.dll <PATH_TO_NIER_AUTOMATA_HERE>
