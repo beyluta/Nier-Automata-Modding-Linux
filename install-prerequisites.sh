@@ -33,8 +33,6 @@ fi
 # -------------------------------- #
 
 # Change the name of the default exe
-# This is assuming `.local/share/Steam` is even the default directory.
-# Some distributions have other paths. It is also dependant on the source Snap, Flatpak, etc...
 mv "$game_dir/NieRAutomata.exe" "$game_dir/NieRAutomata(original).exe"
 
 # Put the WolfLimitBreaker exe in the game directory
